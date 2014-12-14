@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="5"
+                android:textSize="15px"
+                android:inputType="date"
+                android:text="Date" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="5"
+                android:textSize="15px"
+                android:inputType="time"
+                android:text = "Start"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="5"
+                android:textSize="15px"
+                android:inputType="time"
+                android:text="End"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="5"
+                android:textSize="15px"
+                android:inputType="time"
+                android:text = "Total" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:ems="5"
+                android:textSize="15px"
+                android:inputType="time"
+                android:text = "Earned" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/tvSQLinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="get info from db" />
+</LinearLayout>
+
+
